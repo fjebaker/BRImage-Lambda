@@ -1,0 +1,18 @@
+{
+  "name": "brimage-s3-lambda",
+  "version": "1.0.0",
+  "description": "Gets a temporary URI from S3 for web client image upload",
+  "main": "index.js",
+  "scripts": {
+    "uri": "serverless invoke local --function uri"
+  },
+  "keywords": [
+    "brimage"
+  ],
+  "author": "Shaun Baker",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.661.0",
+    "uuidv4": "^6.0.7"
+  }
+}
